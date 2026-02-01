@@ -46,3 +46,14 @@ This mode:
 
 The application is structured to support real API execution
 without any code changes to business logic.
+
+## How to Run
+
+# Market order (mock)
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.01
+
+# Limit order (mock)
+python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.01 --price 70000
+
+# Stop order (mock bonus)
+python cli.py --symbol BTCUSDT --side BUY --type STOP --quantity 0.01 --price 68000 --stop-price 69000
