@@ -1,0 +1,4 @@
+2026-02-01 13:31:55,529 - INFO - bot.client - MOCK REQUEST: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-02-01 13:31:55,532 - INFO - bot.client - MOCK RESPONSE: {'orderId': '61b17481-02e3-4192-96a3-c28f436fdc88', 'status': 'FILLED', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'executedQty': 0.01, 'avgPrice': 'MARKET', 'updateTime': '2026-02-01T08:01:55.532488'}
+2026-02-01 13:31:55,744 - INFO - bot.client - MOCK REQUEST: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 70000.0, 'timeInForce': 'GTC'}
+2026-02-01 13:31:55,744 - INFO - bot.client - MOCK RESPONSE: {'orderId': '09b0bc91-4f6f-474e-96b2-a6455835dd67', 'status': 'FILLED', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'executedQty': 0.01, 'avgPrice': 70000.0, 'updateTime': '2026-02-01T08:01:55.744302'}
